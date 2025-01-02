@@ -132,7 +132,7 @@ import React, { useState, useEffect } from 'react';
       };
 
       return (
-        <div style={{ backgroundColor: backgroundColor, color: textColor }}>
+        <div style={{ backgroundColor: backgroundColor, color: textColor, minHeight: '100vh' }}>
           <div className="container" style={{ color: textColor }}>
             <h1 style={{ color: textColor }}>Colour contrast checker</h1>
             <ContrastScore
